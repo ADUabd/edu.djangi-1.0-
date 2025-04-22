@@ -50,7 +50,7 @@ def contact(request):
 
 
 def login(request):
-    return HttpResponse("Авторизация")
+    return HttpResponse("Авторизация пользователя")
 
 
 def show_post(request, post_id):
