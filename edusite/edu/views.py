@@ -42,7 +42,7 @@ def about(request):
 
 
 def addpage(request):
-    return HttpResponse("Добавление статьи")
+    return HttpResponse("Добавление статьи + ")
 
 
 def contact(request):
